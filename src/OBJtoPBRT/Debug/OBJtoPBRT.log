@@ -1,0 +1,22 @@
+﻿Build started 4/15/2015 4:28:56 PM.
+     1>Project "D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\OBJtoPBRT\OBJtoPBRT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\OBJtoPBRT.unsuccessfulbuild".
+       ClCompile:
+         d:\Secondary Program Files\MicrosoftVisualStudio2010\VC\bin\CL.exe /c /I"D:\Secondary Program Files\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OBJtoPBRT.cpp
+         OBJtoPBRT.cpp
+     1>d:\users\alex\downloads\pbrtnew\pbrt-v2-master\src\objtopbrt\objtopbrt.cpp(48): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users\alex\downloads\pbrtnew\pbrt-v2-master\src\objtopbrt\objtopbrt.cpp(103): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         d:\Secondary Program Files\MicrosoftVisualStudio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\pbrt.vs2010\Debug\OBJtoPBRT.exe" /NOLOGO /LIBPATH:"D:\Secondary Program Files\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OBJtoPBRT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\pbrt.vs2010\Debug\OBJtoPBRT.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\pbrt.vs2010\Debug\OBJtoPBRT.lib" /MACHINE:X86 Debug\OBJtoPBRT.obj
+         OBJtoPBRT.vcxproj -> D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\pbrt.vs2010\Debug\OBJtoPBRT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\pbrt.vs2010\Debug\OBJtoPBRT.exe;#1" /manifest Debug\OBJtoPBRT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OBJtoPBRT.unsuccessfulbuild".
+         Touching "Debug\OBJtoPBRT.lastbuildstate".
+     1>Done Building Project "D:\Users\Alex\Downloads\pbrtNew\pbrt-v2-master\src\OBJtoPBRT\OBJtoPBRT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.04
