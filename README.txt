@@ -12,6 +12,7 @@ glass.cpp
 spot.cpp
 path.cpp
 photonmap.cpp
+metal.pbrt
 The pbrt portion of the project should be compile-able as is by opening the VS2010 solution.
 
 The new files are:
