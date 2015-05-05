@@ -1,3 +1,11 @@
+/*
+ * Copyright (C) 2015 Alex Chiang
+ *
+ * - A utility class to manage conversions between color spaces.
+ * - Also calculates color difference images and Delta E. 
+ * - Needs FreeImage library linked.
+ */
+
 #ifndef COLORCHECKER_H
 #define COLORCHECKER_H
 #include "Spectrum.h"
